@@ -1,20 +1,3 @@
 <template>
-    <div>
-        <h1>{{ msg }}</h1>
-        <Hello />
-    </div>
+    <router-view></router-view>
 </template>
-<script>
-import Hello from "~/components/Hello";
-
-export default {
-    components: {
-        Hello,
-    },
-    data() {
-        return {
-            msg: "Hello..?!",
-        };
-    },
-};
-</script>
