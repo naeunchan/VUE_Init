@@ -43,7 +43,6 @@ module.exports = {
             patterns: [
                 {
                     from: "static",
-                    // to: "dist", //자동으로 들어감 output의 path에 의해
                 },
             ],
         }),
